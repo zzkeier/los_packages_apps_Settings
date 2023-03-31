@@ -99,4 +99,12 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
 
+    <!-- Modify Messages -->
+    <Preference
+        android:key="os_modify_man"
+        android:title="@string/modify_title"
+        android:summary="@string/modify_man"
+        android:selectable="false"
+        settings:enableCopying="true"/>
+
 </PreferenceScreen>
